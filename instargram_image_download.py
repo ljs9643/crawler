@@ -5,7 +5,8 @@ import os
 import datetime
 import csv
 
-r = requests.get('https://www.instagram.com/explore/tags/%EC%9E%90%EB%8F%99%EC%B0%A8/')
+instargram_url = 'https://www.instagram.com/explore/tags/%EC%9E%90%EB%8F%99%EC%B0%A8/'
+r = requests.get( instargram_url )
 html = r.text
 
 
