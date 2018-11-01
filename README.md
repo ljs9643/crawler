@@ -6,6 +6,8 @@
     현재 unix timestamp로 이름을 지은 csv에 저장된다.
   - 이미지는 기본적으로는 c:/image_download 디렉토리에 저장된다.(디렉토리가 없으면 생성함)
   
+  -----------------
+  
 2. web_crawler.java
   - 인스타그램에서 argument로 지정된 Tag를 검색하여 해당 페이지의 이미지를 다운로드함
   - java web_crawler 자동차 ./down_image
